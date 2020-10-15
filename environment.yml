@@ -1,0 +1,19 @@
+name: athena-twin
+dependencies:
+- python=3.7
+- pandas
+- jupyter
+- matplotlib
+- scikit-learn
+- seaborn
+- xlrd
+- psycopg2
+- pip:
+  - plotly
+  - requests
+  - lxml
+  - pillow
+  - PyWavelets
+  - sqlalchemy
+
+  

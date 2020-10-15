@@ -1,0 +1,14 @@
+{
+    "forecast": 48,
+    "look_forward": 48,
+    "look_back": 10,
+    "max_train_size": 17472,
+    "n_splits": 10,
+    "lstm_levels": 100,
+    "dropout": 0.2,
+    "epochs": 5,
+    "group": "day_group",
+    "num_cols": ["passengers"],
+    "cat_cols":  ["hour", "day", "month"],
+    "no_trans_cols": []
+}
