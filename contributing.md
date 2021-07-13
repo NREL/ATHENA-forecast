@@ -4,15 +4,15 @@ Contributing
 ## Issue Tracking
 
 New feature requests, changes, enhancements, non-methodology features, and bug reports can be filed as new issues in the
-[Github.com issue tracker](https://github.com/NREL/ATHENA-twin/issues) at any time. Please be sure to fully describe the
+[Github.com issue tracker](https://github.com/NREL/ATHENA-forecast/issues) at any time. Please be sure to fully describe the
 issue.
 
 ## Repository
 
-The ATHENA-twin repository is hosted on Github, and located here: http://github.com/NREL/ATHENA-twin
+The ATHENA-forecast repository is hosted on Github, and located here: http://github.com/NREL/ATHENA-forecast
 
 To work on a feature, please make a new feature branch based on the master branch. If you're working externally
-to NREL, please fork OpenOA first and then create a feature branch in your own copy of the repository.
+to NREL, please fork ATHENA-forecast first and then create a feature branch in your own copy of the repository.
 Work out of the feature branch before submitting a pull request. Be sure to periodically merge the target release
 branch into your feature branch to avoid conflicts in the pull request.
 
@@ -33,8 +33,5 @@ The only exception is the line length limit of 120 characters.
 pylint --max-line-length=120 operational_analysis
 ```
 
-## Documentation Style
-
-Documentation is written using RST.
 
 

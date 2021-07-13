@@ -1,9 +1,5 @@
+__version__ = "0.0.2"
 
-__version__ = "0.0.1"
-
-
-from . import database
-from . import learning
-from . import tom_tom
-from . import scraper
-
+from .dataset import Dataset
+from . import utils
+from . evaluate import evaluate

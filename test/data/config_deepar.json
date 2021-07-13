@@ -1,0 +1,20 @@
+{
+    "filename": "dfw_demand.csv.gz",
+    "index": "timestamp",
+    "freq": "30min",
+    "max_days": 500,
+    "max_training_days": 100,
+    "predition_length": 48,
+    "test_start_values": ["2019-07-27 00:00:00"],
+    "test_sequence_length": 1,
+    "target": ["vehicles"],
+    "dynamic_real": [],
+    "dynamic_cat": [],
+    "algorithm": "deepar",
+    "params": {
+        "epochs": 3,
+        
+    },
+    "directory": "results/deepar",
+    "uuid": "test_deepar"
+}

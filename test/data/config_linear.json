@@ -1,0 +1,17 @@
+{
+    "filename": "dfw_demand.csv.gz",
+    "index": "timestamp",
+    "freq": "30min",
+    "max_days": 500,
+    "max_training_days": 100,
+    "prediction_length": 1,
+    "test_start_values": ["2019-07-27 00:00:00", "2019-07-28 00:00:00"],
+    "test_sequence_length": 48,
+    "target": ["vehicles"],
+    "dynamic_real": ["hour", "vehicles_1", "vehicles_2", "vehicles_3"],
+    "dynamic_cat": [],
+    "algorithm": "linear",
+    "params": {},
+    "directory": "results/linear",
+    "uuid": "test"
+}
